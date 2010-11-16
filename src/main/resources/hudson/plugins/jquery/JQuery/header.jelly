@@ -1,0 +1,4 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form" xmlns:i="jelly:fmt">
+  <script src="${rootURL}/plugin/jquery/js/jquery-1.4.2.min.js"></script>
+  <script>jQuery.noConflict()</script>
+</j:jelly>
