@@ -27,4 +27,9 @@
     </repository>
   </repositories>
 
+  <scm>
+    <connection>scm:git:git@github.com:jenkinsci/jquery-plugin.git</connection>
+    <developerConnection>scm:git:git@github.com:jenkinsci/jquery-plugin.git</developerConnection>
+  </scm>
+
 </project>
