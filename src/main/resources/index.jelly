@@ -4,5 +4,5 @@
   Since we don't really have anything dynamic here, let's just use static HTML. 
 -->
 <div>
-  This plugin allows you to use jQuery in View Description or your plugin.
+  This plugin allows you to use jQuery on each view descriptions.
 </div>
