@@ -1,8 +1,3 @@
-<!--
-  This view is used to render the plugin list page.
-
-  Since we don't really have anything dynamic here, let's just use static HTML. 
--->
 <div>
-  This plugin allows you to use jQuery on each view descriptions.
+  This allows other plugins to use jQuery in UI.
 </div>
