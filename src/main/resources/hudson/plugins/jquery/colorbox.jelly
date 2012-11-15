@@ -1,0 +1,7 @@
+<!--
+Use it like <st:adjunct includes="hudson.plugins.jquery.colorbox"/>
+-->
+<j:jelly xmlns:j="jelly:core">
+  <script src="${it.packageUrl}/colorbox/js/jquery.colorbox-min.js" type="text/javascript"></script>
+  <link href="${it.packageUrl}/colorbox/css/colorbox.css" type="text/css" rel="stylesheet" />
+</j:jelly>
