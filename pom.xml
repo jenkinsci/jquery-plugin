@@ -8,7 +8,7 @@
   </parent>
 
   <artifactId>jquery</artifactId>
-  <version>1.7.2-2-SNAPSHOT</version>
+  <version>1.11.2-0-SNAPSHOT</version>
   <packaging>hpi</packaging>
   <name>Jenkins jQuery plugin</name>
   <url>http://wiki.jenkins-ci.org/display/JENKINS/jQuery+Plugin</url>
@@ -40,7 +40,7 @@
     <dependency>
       <groupId>org.kohsuke.stapler</groupId>
       <artifactId>stapler-adjunct-jquery</artifactId>
-      <version>1.7.2-0</version>
+      <version>1.11.2-0</version>
     </dependency>
   </dependencies>
 
