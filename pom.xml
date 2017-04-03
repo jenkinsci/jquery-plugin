@@ -4,7 +4,7 @@
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
-    <version>1.424</version>
+    <version>2.25</version>
   </parent>
 
   <artifactId>jquery</artifactId>
@@ -12,6 +12,12 @@
   <packaging>hpi</packaging>
   <name>Jenkins jQuery plugin</name>
   <url>http://wiki.jenkins-ci.org/display/JENKINS/jQuery+Plugin</url>
+
+  <properties>
+    <jenkins.version>1.625</jenkins.version>
+    <jenkins-test-harness.version>1.625</jenkins-test-harness.version>
+    <java.level>6</java.level>
+  </properties>
 
   <developers>
     <developer>
