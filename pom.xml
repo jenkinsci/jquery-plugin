@@ -10,8 +10,9 @@
   <artifactId>jquery</artifactId>
   <version>1.11.2-1-SNAPSHOT</version>
   <packaging>hpi</packaging>
-  <name>Jenkins jQuery plugin</name>
-  <url>http://wiki.jenkins-ci.org/display/JENKINS/jQuery+Plugin</url>
+  <name>jQuery plugin</name>
+  <description>This plugin provides an stable version of jQuery Javascript Library</description>
+  <url>https://wiki.jenkins-ci.org/display/JENKINS/jQuery+Plugin</url>
 
   <developers>
     <developer>
@@ -47,7 +48,7 @@
     <pluginRepositories>
         <pluginRepository>
             <id>repo.jenkins-ci.org</id>
-            <url>http://repo.jenkins-ci.org/public/</url>
+            <url>https://repo.jenkins-ci.org/public/</url>
         </pluginRepository>
     </pluginRepositories>
 
