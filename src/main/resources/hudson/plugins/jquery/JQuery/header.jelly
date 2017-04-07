@@ -1,3 +1,5 @@
+<?jelly escape-by-default='true'?>
+
 <j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler">
   <st:adjunct includes="org.kohsuke.stapler.jquery" />
   <!-- avoid conflict with prototype.js in core -->
