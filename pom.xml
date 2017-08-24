@@ -47,6 +47,12 @@
       <groupId>org.kohsuke.stapler</groupId>
       <artifactId>stapler-adjunct-jquery</artifactId>
       <version>1.11.2-0</version>
+      <exclusions>
+        <exclusion>
+          <groupId>org.kohsuke.stapler</groupId>
+          <artifactId>stapler</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
   </dependencies>
 
