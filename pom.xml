@@ -8,7 +8,7 @@
   </parent>
 
   <artifactId>jquery</artifactId>
-  <version>1.12.4-0</version>
+  <version>1.12.4-1-SNAPSHOT</version>
   <packaging>hpi</packaging>
   <name>jQuery plugin</name>
   <description>This plugin provides an stable version of jQuery Javascript Library</description>
@@ -40,7 +40,7 @@
   <scm>
     <connection>scm:git:git@github.com:jenkinsci/jquery-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/jquery-plugin.git</developerConnection>
-    <tag>jquery-1.12.4-0</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <dependencies>
