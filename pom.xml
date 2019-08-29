@@ -11,7 +11,7 @@
   <version>${revision}${changelist}</version>
   <packaging>hpi</packaging>
   <name>jQuery plugin</name>
-  <description>This plugin provides an stable version of jQuery Javascript Library</description>
+  <description>This plugin provides a stable version of the jQuery Javascript Library</description>
   <url>https://wiki.jenkins.io/display/JENKINS/jQuery+Plugin</url>
 
   <properties>
