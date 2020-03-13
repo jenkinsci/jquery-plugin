@@ -1,0 +1,24 @@
+= jQuery
+
+This plugin is a library plugin for other plugins to share common
+jQuery. It also allows users to use jQuery on each view
+descriptions.Because Jenkins uses prototype.js in the core, you cannot
+use the standard '$' object to access jQuery. Instead, use the 'Q'
+object, or use a new scope created by a function to re-bind '$' to
+jQuery safely, as follows:
+
+[.confluence-embedded-file-wrapper]#image:docs/images/jquery-plugin.png[image]#
+
+This plugin puts jQuery into every page rendered by Jenkins, so
+developers of other plugins need not do anything special to make it
+work.
+
+If Jenkins is 1.453 or later, Jenkins will not allow JavaScript in
+description. You will need
+https://plugins.jenkins.io/anything-goes-formatter/["Anything
+Goes" formatter].
+
+== Changelog
+For recent versions, see https://github.com/jenkinsci/jquery-plugin/releases[GitHub Releases]
+
+For versions 1.12.4-0 and older, see CHANGELOG.adoc
