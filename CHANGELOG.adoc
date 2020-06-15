@@ -1,0 +1,47 @@
+== Version History
+
+[[jQueryPlugin-Version1.12.4-0(Oct04,2017)]]
+=== Version 1.12.4-0 (Oct 04, 2017)
+
+* Upgraded to jQuery 1.12.4.
+
+[[jQueryPlugin-Version1.11.2-1(Sep08,2017)]]
+=== Version 1.11.2-1 (Sep 08, 2017)
+
+No user-visible changes, only metadata.
+
+[[jQueryPlugin-Version1.11.2-0(Apr11,2015)]]
+=== Version 1.11.2-0 (Apr 11, 2015)
+
+* Upgraded to jQuery 1.11.2.
+
+[[jQueryPlugin-Version1.7.2-1(Nov15,2012)]]
+=== Version 1.7.2-1 (Nov 15, 2012)
+
+* Added the http://www.jacklmoore.com/colorbox/[jQuery ColorBox] plugin
+JS and CSS as an optional include
+** Plugins wishing to use ColorBox just need to add
+`+<st:adjunct includes="hudson.plugins.jquery.colorbox"/>+` to their
+layout file
+
+[[jQueryPlugin-Version1.7.2-0(Jun14,2012)]]
+=== Version 1.7.2-0 (Jun 14, 2012)
+
+* Upgraded to jQuery 1.7.2. Bump in the version number is to align the
+base jQuery version with this plugin.
+
+[[jQueryPlugin-Version1.0.2(Feb27,2011)]]
+=== Version 1.0.2 (Feb 27, 2011)
+
+* Rerelease 1.0.1 to properly set required Jenkins version.
+
+[[jQueryPlugin-Version1.0.1(Feb22,2011)]]
+=== Version 1.0.1 (Feb 22, 2011)
+
+* Downgrade jQuery. (1.4.4 -> 1.4.2) jQuery 1.4.4 dosen't work with
+Prototype 1.5.1.1 (Jenkins bundled version) on Chrome, Safari.
+
+[[jQueryPlugin-Version1.0(Feb20,2011)]]
+== Version 1.0 (Feb 20, 2011)
+
+* Initial release
