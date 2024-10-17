@@ -3,5 +3,5 @@
 <j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler">
   <st:adjunct includes="org.kohsuke.stapler.jquery" />
   <!-- avoid conflict with prototype.js in core -->
-  <script>var Q=jQuery.noConflict()</script>
+  <st:adjunct includes="hudson.plugins.jquery.JQuery.jquery-no-conflict"/>
 </j:jelly>
