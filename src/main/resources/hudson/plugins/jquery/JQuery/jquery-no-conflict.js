@@ -1,3 +1,1 @@
-window.addEventListener("DOMContentLoaded", function() {
-    var Q=jQuery.noConflict()
-});
+var Q=jQuery.noConflict()
