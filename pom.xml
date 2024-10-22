@@ -10,14 +10,14 @@
   </parent>
 
   <artifactId>jquery</artifactId>
-  <version>1.12.4-3</version>
+  <version>${revision}${changelist}</version>
   <packaging>hpi</packaging>
   <name>jQuery plugin</name>
   <description>This plugin provides a stable version of the jQuery Javascript Library</description>
   <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
 
   <properties>
-    <revision>1.12.4-2</revision>
+    <revision>1.12.4-4</revision>
     <changelist>-SNAPSHOT</changelist>
     <!-- https://www.jenkins.io/doc/developer/plugin-development/choosing-jenkins-baseline/ -->
     <jenkins.baseline>2.440</jenkins.baseline>
@@ -47,7 +47,7 @@
     <connection>scm:git:https://github.com/${gitHubRepo}.git</connection>
     <developerConnection>scm:git:git@github.com:${gitHubRepo}.git</developerConnection>
     <url>https://github.com/${gitHubRepo}</url>
-    <tag>jquery-1.12.4-3</tag>
+    <tag>${scmTag}</tag>
   </scm>
 
   <dependencies>
