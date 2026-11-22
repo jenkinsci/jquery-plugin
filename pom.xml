@@ -10,15 +10,15 @@
   </parent>
 
   <artifactId>jquery</artifactId>
-  <version>${revision}${changelist}</version>
+  <version>${revision}-${changelist}</version>
   <packaging>hpi</packaging>
   <name>jQuery plugin</name>
   <description>This plugin provides a stable version of the jQuery Javascript Library</description>
   <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
 
   <properties>
-    <revision>1.12.4-4</revision>
-    <changelist>-SNAPSHOT</changelist>
+    <revision>1.12.4</revision>
+    <changelist>999999-SNAPSHOT</changelist>
     <!-- https://www.jenkins.io/doc/developer/plugin-development/choosing-jenkins-baseline/ -->
     <jenkins.baseline>2.479</jenkins.baseline>
     <jenkins.version>${jenkins.baseline}.3</jenkins.version>
