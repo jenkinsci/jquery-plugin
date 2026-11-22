@@ -7,7 +7,7 @@ import hudson.model.PageDecorator;
 public class JQuery extends PageDecorator {
 
     public JQuery() {
-        super(JQuery.class);
+        super();
     }
 
 }
